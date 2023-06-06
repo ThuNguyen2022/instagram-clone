@@ -1,0 +1,56 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: #fafafa;
+  height: 100%;
+}
+
+.home-section {
+  height: 95%;
+  width: 70%;
+}
+
+.image-section, .login-section {
+  height: 100%;
+  background-position-x: right;
+}
+.image-section{
+  width: 45%;
+}
+
+.login-section {
+  width: 35%;
+}
+
+.image-section {
+  background-image: url("home-phone-bg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.card {
+  border: 1px #ccc solid;
+}
+
+.card-img-top {
+  max-width: 40%;
+  align-self: center;
+}
+
+.line-text {
+  padding: 0 1rem;
+  font-size: small;
+  margin: 0;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+}
