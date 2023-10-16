@@ -5,12 +5,11 @@ default: &default
   password: password
   host: db
   pool: 5
-  database: instagram
 
 test:
   <<: *default
-  database: instagram_docker_test
+  database: task_db_test
 
 development:
   <<: *default
-  database: instagram_docker_dev
+  database: task_db_dev
